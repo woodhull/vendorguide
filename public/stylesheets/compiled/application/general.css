@@ -1,0 +1,19 @@
+/* These are styles to make the page look nice */
+/* line 7, ../../../../app/stylesheets/application/general.scss */
+body {
+  background-color: #dadada;
+}
+
+/* line 9, ../../../../app/stylesheets/application/general.scss */
+.content {
+  background: #fff;
+  padding: 40px;
+  margin: 40px auto;
+  width: 880px;
+  -moz-border-radius: 24px;
+  -webkit-border-radius: 24px;
+  -o-border-radius: 24px;
+  -ms-border-radius: 24px;
+  -khtml-border-radius: 24px;
+  border-radius: 24px;
+}
