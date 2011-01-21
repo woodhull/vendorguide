@@ -10,10 +10,33 @@ gem "haml"
 gem "flutie"
 gem 'formtastic'
 
+gem 'devise', :git => 'git://github.com/plataformatec/devise.git',  :branch => 'v1.2.oauth'
+gem 'oauth2', :git => 'git://github.com/intridea/oauth2.git'
+gem 'mogli'
+gem 'memcache-client'
+
+group :test, :development do
+  gem "ruby-debug19"
+  gem "rspec-rails", "~> 2.4"
+end
+
+group :test do
+  gem 'cucumber-rails'
+  gem 'capybara'
+  gem 'database_cleaner'
+  gem 'mocha'
+  gem 'factory_girl_rails'
+  gem 'shoulda'
+
+end
+
+
+
 gem 'sqlite3-ruby', :require => 'sqlite3'
 
 # Use unicorn as the web server
 # gem 'unicorn'
+
 
 # Deploy with Capistrano
 # gem 'capistrano'

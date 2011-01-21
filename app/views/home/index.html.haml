@@ -1,0 +1,6 @@
+%h2 Vendor Guide
+
+- if current_user
+  = "#{current_user.me.first_name} #{current_user.me.last_name}"
+- else
+  = link_to "Sign in as User with Facebook", user_oauth_authorize_url(:facebook)

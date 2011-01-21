@@ -33,6 +33,8 @@ module Vendorguide
     # JavaScript files you want as :defaults (application.js is always included).
     # config.action_view.javascript_expansions[:defaults] = %w(jquery rails)
 
+    config.cache_store = :mem_cache_store, 'localhost'
+
     # Configure the default encoding used in templates for Ruby 1.9.
     config.encoding = "utf-8"
 
@@ -40,3 +42,6 @@ module Vendorguide
     config.filter_parameters += [:password]
   end
 end
+
+ENV['facebook_app_id']     = '192326054112241'
+ENV['facebook_app_secret'] = '7d4a1b799e2c89ab66231c0ddecf6f7a'
