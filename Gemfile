@@ -13,6 +13,7 @@ gem 'oauth2', :git => 'git://github.com/intridea/oauth2.git'
 gem 'mogli'
 gem 'dalli'
 gem 'exceptional'
+gem 'json'
 
 group :test, :development do
   gem "ruby-debug19"

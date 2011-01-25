@@ -220,6 +220,7 @@ DEPENDENCIES
   haml
   heroku
   hpricot
+  json
   mocha
   mogli
   oauth2!
