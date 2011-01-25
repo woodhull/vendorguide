@@ -1,1 +1,6 @@
 %h2 Vendors
+
+- if @vendors.any?
+  - @vendors.each do |vendor|
+    .vendor-mini
+      = link_to vendor.name, vendor

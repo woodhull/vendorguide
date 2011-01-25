@@ -1,0 +1,15 @@
+.vendor
+  %h2
+    = @vendor.name
+  .description
+    = @vendor.description
+  .reviews
+    - @vendor.reviews.each do |review|
+      .review-inline
+        .author
+          = review.user.name
+        = review.description
+    %hr
+    %h3
+      Add Your Review
+    = render :partial => 'reviews/form'

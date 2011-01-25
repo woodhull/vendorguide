@@ -897,7 +897,7 @@ body {
 .content {
   background: #fff;
   padding: 40px;
-  margin: 40px auto;
+  margin: 10px auto 40px auto;
   width: 880px;
   -moz-border-radius: 24px;
   -webkit-border-radius: 24px;
@@ -905,4 +905,37 @@ body {
   -ms-border-radius: 24px;
   -khtml-border-radius: 24px;
   border-radius: 24px;
+}
+
+/* line 17, ../../../app/stylesheets/application/general.scss */
+.header {
+  width: 880px;
+  margin: 5px auto;
+}
+
+/* line 22, ../../../app/stylesheets/application/general.scss */
+.login {
+  float: right;
+  height: 25px;
+  vertical-align: middle;
+}
+
+/* line 28, ../../../app/stylesheets/application/general.scss */
+.login > a {
+  vertical-align: middle;
+}
+
+/* line 32, ../../../app/stylesheets/application/general.scss */
+.login img {
+  margin: 0px;
+}
+
+/* line 37, ../../../app/stylesheets/application/general.scss */
+.vendor .reviews {
+  padding-top: 20px;
+  margin: 10px 8px 8px 10px;
+}
+/* line 40, ../../../app/stylesheets/application/general.scss */
+.vendor .reviews .review-inline {
+  padding-bottom: 10px;
 }

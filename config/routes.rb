@@ -2,7 +2,7 @@ Vendorguide::Application.routes.draw do
 
   root :to => "home#index"
   resources :vendors
-
+  resources :reviews
   devise_for :users
 
   # Sample resource route with options:

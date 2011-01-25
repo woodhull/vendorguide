@@ -1,0 +1,7 @@
+= semantic_form_for @review do |form|
+  - form.inputs do
+    = form.input :description, :as => :text
+    = form.input :score,       :as => :select, :collection => ["1", "2", "3", "4", "5"]
+    = form.input :vendor_id,    :as => :hidden, :value => @review.vendor.id
+  - form.buttons do
+    = form.commit_button

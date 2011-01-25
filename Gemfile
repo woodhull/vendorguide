@@ -6,6 +6,7 @@ gem 'rails', '3.0.3'
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 gem "compass", ">= 0.10.6"
+
 gem "haml"
 gem "flutie"
 gem 'formtastic'
@@ -14,6 +15,9 @@ gem 'devise', :git => 'git://github.com/plataformatec/devise.git',  :branch => '
 gem 'oauth2', :git => 'git://github.com/intridea/oauth2.git'
 gem 'mogli'
 gem 'memcache-client'
+gem 'hpricot'
+gem 'ruby_parser'
+gem 'heroku'
 
 group :test, :development do
   gem "ruby-debug19"
@@ -27,7 +31,7 @@ group :test do
   gem 'mocha'
   gem 'factory_girl_rails'
   gem 'shoulda'
-
+  gem 'ZenTest'
 end
 
 
