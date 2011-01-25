@@ -1,4 +1,6 @@
-%h2 Vendors
+%h2 Vendor Guide
+.add-vendor
+  = link_to "Add a Vendor", new_vendor_path
 
 - if @vendors.any?
   - @vendors.each do |vendor|

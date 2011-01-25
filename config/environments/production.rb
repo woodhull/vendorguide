@@ -24,9 +24,6 @@ Vendorguide::Application.configure do
   # Use a different logger for distributed setups
   # config.logger = SyslogLogger.new
 
-  # Use a different cache store in production
-  # config.cache_store = :mem_cache_store
-
   # Disable Rails's static asset server
   # In production, Apache or nginx will already do this
   config.serve_static_assets = false
@@ -48,3 +45,8 @@ Vendorguide::Application.configure do
   config.active_support.deprecation = :notify
   config.cache_store = :dalli_store
 end
+
+ENV['facebook_app_id']     = '187200514633182'
+ENV['facebook_app_secret'] = '853edb6234f1b73e468674503940d2e0'
+
+

@@ -21,13 +21,21 @@ body { background-color: #dadada;}
 
 .login {
   float: right;
-  height: 25px;
-  vertical-align: middle;
+  height: 30px;
 }
 
-.login > a {
-  vertical-align: middle;
+.login > div.login-info {
+  float: right;
+  vertical-align:center;
+  height: 25px;
+  margin-top:6px;
+  margin-left:10px;
 }
+
+.login > div.login-image {
+  float: right;
+}
+
 
 .login img{
   margin: 0px;
@@ -43,4 +51,11 @@ body { background-color: #dadada;}
     }
   }
 
+}
+
+.add-vendor {
+ float: right;
+ background: url('/images/icons/add.png')  no-repeat left;
+ padding-left:20px;
+ height: 16px;
 }

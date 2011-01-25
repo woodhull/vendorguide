@@ -40,6 +40,3 @@ module Vendorguide
     config.filter_parameters += [:password]
   end
 end
-
-ENV['facebook_app_id']     = '192326054112241'
-ENV['facebook_app_secret'] = '7d4a1b799e2c89ab66231c0ddecf6f7a'

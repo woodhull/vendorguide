@@ -9,11 +9,14 @@
     .header
       .login
         - if current_user
-          = image_tag current_user.me.square_image_url, :width => '25px', :height => '25px'
-          = "#{current_user.me.first_name} #{current_user.me.last_name}"
-          = link_to "Logout", destroy_user_session_path
+          .login-info
+            = "#{current_user.me.first_name} #{current_user.me.last_name}"
+            = link_to "Logout", destroy_user_session_path
+          .login-image
+            = image_tag current_user.me.square_image_url, :width => '25px', :height => '25px'
         - else
-          = link_to "Sign in as User with Facebook", user_oauth_authorize_url(:facebook)
+          .login-info
+            = link_to "Sign in as User with Facebook", user_oauth_authorize_url(:facebook)
       <div style="clear: both;"></div>
     .content
       .messages

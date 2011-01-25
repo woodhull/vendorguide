@@ -10,6 +10,9 @@
           = review.user.name
         = review.description
     %hr
-    %h3
-      Add Your Review
-    = render :partial => 'reviews/form'
+    - if current_user
+      %h3
+        Add Your Review
+      = render :partial => 'reviews/form'
+    - else
+      = link_to "Sign in with Facebook to add a review", user_oauth_authorize_url(:facebook)

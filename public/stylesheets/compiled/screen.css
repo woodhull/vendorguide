@@ -916,26 +916,42 @@ body {
 /* line 22, ../../../app/stylesheets/application/general.scss */
 .login {
   float: right;
+  height: 30px;
+}
+
+/* line 27, ../../../app/stylesheets/application/general.scss */
+.login > div.login-info {
+  float: right;
+  vertical-align: center;
   height: 25px;
-  vertical-align: middle;
+  margin-top: 6px;
+  margin-left: 10px;
 }
 
-/* line 28, ../../../app/stylesheets/application/general.scss */
-.login > a {
-  vertical-align: middle;
+/* line 35, ../../../app/stylesheets/application/general.scss */
+.login > div.login-image {
+  float: right;
 }
 
-/* line 32, ../../../app/stylesheets/application/general.scss */
+/* line 40, ../../../app/stylesheets/application/general.scss */
 .login img {
   margin: 0px;
 }
 
-/* line 37, ../../../app/stylesheets/application/general.scss */
+/* line 45, ../../../app/stylesheets/application/general.scss */
 .vendor .reviews {
   padding-top: 20px;
   margin: 10px 8px 8px 10px;
 }
-/* line 40, ../../../app/stylesheets/application/general.scss */
+/* line 48, ../../../app/stylesheets/application/general.scss */
 .vendor .reviews .review-inline {
   padding-bottom: 10px;
+}
+
+/* line 56, ../../../app/stylesheets/application/general.scss */
+.add-vendor {
+  float: right;
+  background: url("/images/icons/add.png") no-repeat left;
+  padding-left: 20px;
+  height: 16px;
 }
