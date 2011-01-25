@@ -14,10 +14,11 @@ gem 'formtastic'
 gem 'devise', :git => 'git://github.com/plataformatec/devise.git',  :branch => 'v1.2.oauth'
 gem 'oauth2', :git => 'git://github.com/intridea/oauth2.git'
 gem 'mogli'
-gem 'memcache-client'
+gem 'dalli'
 gem 'hpricot'
 gem 'ruby_parser'
 gem 'heroku'
+gem 'exceptional'
 
 group :test, :development do
   gem "ruby-debug19"
